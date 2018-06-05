@@ -1,0 +1,65 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td,i{ 
+margin:0; padding:0;
+}
+i{
+font-style:normal 
+}
+body { 
+background:#fff; 
+color:#000000;
+font-size:12px;
+font-family: "微软雅黑",Verdana, Arial, Helvetica, sans-serif; 
+}
+td,th,caption { 
+font-size:12px; 
+}
+h1, h2, h3, h4, h5, h6 { 
+font-weight:normal; 
+font-size:100%; 
+}
+address, caption, cite, code, dfn, em, strong, th, var { 
+font-style:normal; 
+font-weight:normal;
+}
+a { 
+text-decoration:none; 
+}
+a:hover { 
+/*text-decoration:underline;*/ 
+text-decoration:none; 
+}
+img{ 
+border:none; 
+}
+.center{
+width:1200px;
+margin:0 auto;
+}
+ol,ul,li { 
+list-style:none; 
+}
+input, textarea, select, button{
+outline: none;
+/*box-sizing: border-box;*/
+border:none;
+font-size: 12px;
+font-family:"微软雅黑",Verdana,Helvetica,Arial,sans-serif;
+background:transparent; 
+}
+table { 
+border-collapse:collapse; 
+}
+html {
+overflow-y: scroll;
+} 
+.clearfix:after {
+content: ""; 
+display: block; 
+height:0;
+line-height: 0; 
+clear:both; 
+visibility: hidden;
+}
+.clearfix { 
+*zoom:1; 
+}
